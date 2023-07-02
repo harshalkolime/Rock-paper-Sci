@@ -1,0 +1,46 @@
+
+
+body{
+  background-image: linear-gradient(to right, rgb(171, 233, 255) , rgb(251, 170, 151));
+  color: white;
+  font-family: sans-serif;
+}
+
+.player{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  text-align: center;
+}
+
+.buttons{
+  display: flex;
+  gap: 20px;
+}
+button{
+  padding: 5%;
+background-color: rgb(255, 255, 255);
+color: rgb(160, 159, 242);
+border: none;
+border-radius: 5px;
+
+}
+
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  justify-content: space-evenly;
+
+}
+
+
+
+.result{
+
+  opacity: 60%;
+  font-weight: 800;
+  font-size: 100px;
+}
